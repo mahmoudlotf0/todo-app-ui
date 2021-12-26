@@ -55,11 +55,6 @@ class _HomePageState extends State<HomePage> {
       leading: IconButton(
         onPressed: () {
           ThemeServices().switchTheme();
-          // notifyHelper.displayNotification(
-          //   title: 'the theme changed',
-          //   body: 'slss',
-          // );
-          // notifyHelper.scheduleNotification();
         },
         icon: Icon(
           Get.isDarkMode
